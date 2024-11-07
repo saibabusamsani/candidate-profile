@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "inter";
+}
+.header{
+   
+    height: 100px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    cursor: pointer;
+    
+}
+.app-link{
+    color: rgb(81, 81, 81);
+
+}
+.com-box{
+    width: 400px;
+    margin-right: 20%;
+}
+.left{
+    width: 60%;
+    height: 600px;
+    
+}
+.right{
+    width: 40%;
+    height: 600px;
+    /* background-color:green; */
+}
+
+.top1{
+    width: 135px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    column-gap: 3px;
+}
+.fa-star{
+    color: yellow;
+}
+.top11{
+    transform: translateY(8px);
+}
+.top{
+    background-color: rgb(200, 232, 249);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.profile-pic{
+    width: 20%;
+    
+}
+.content{
+    width: 60%;
+   
+}
+.save{
+    width: 20%;
+   
+   
+}
+.profile-pic img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.card-bottom{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rgb(45, 171, 234);
+}
+.icon-item{
+    font-size: 15px;
+}
+.title p:nth-child(1){
+    font-size: 13px;
+    font-weight: 500;
+    width: 120px;
+    color: rgb(97, 96, 96);
+}
+.title p:nth-child(2){
+    font-size: 14px;
+    /* font-weight: 600; */
+    width: 300px;
+}
+.phone-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    column-gap: 5px;
+    height: 35px;
+}
+.profile-btn button,.profile-btn div{
+    font-size: 12px;
+    
+}
+.content :last-child{
+    /* color: rebeccapurple; */
+    transform: scale(.8);
+}
+.email{
+    /* transform: translateX(50px); */
+    margin-right: 440px;
+}
+.days{
+    font-size: 13px;
+}
