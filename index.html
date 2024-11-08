@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">  
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="step.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +17,7 @@
 <body>
 
     <div class="header h-10 d-flex justify-content-between align-items-center p-5">
-        <a class="fw-bold text-decoration-none app-link">Applications( Access database ) < Rohit sharma</a>
+        <a class="fw-bold text-decoration-none app-link" href="https://save-condidate.vercel.app/">Applications( Access database ) < Rohit sharma</a>
         <div class="border border-primary d-flex pe-2 ps-2  justify-content-between align-items-center rounded com-box">
             <p class="mt-2">no comments ..</p>
             <button class="text-primary bg-white border-0">Add</button>
@@ -186,19 +187,74 @@
                 </div>
 
               </div>
-              <!-- profile -->
-
-              
-
-
+             
         </div>
 
         
 
 
         <div class="right" id="right">
+
+            <div class="right-top d-flex justify-content-between p-2">
+                <p >120 similar profiles</p>
+                <p class="text-primary">View all</p>
+
+            </div>
+            <div class="right-bottom justify-content-start d-flex flex-column align-items-center gap-2 " id="similar-card-list" >
+
+                <div class="similar-card" id="similar-card">
+                    <div class="d-flex gap-4">
+                        <img src="../assests/kohli.jpg"/>
+                        <div class="profile-info">
+                            <b>Ram charan</b>
+                            <p >PHP full stack developer at google</p>
+                        </div>
+                    </div>
+                    <div class="d-flex similar-card-icon gap-3">
+                        <div class="d-flex gap-1">
+                            <i class="fas fa-shopping-bag"></i>
+                            <p>6yr 4m</p>
+                        </div>
+                        <div class="d-flex gap-1">
+                            <i class="fa-solid fa-wallet"></i>
+                            <p>₹ 27.50 LACS</p>
+                        </div>
+                    </div>
+                    <div class="similar-card-icon d-flex gap-2">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Hyderbad (Prefers Bangalore,Vizag)</p>
+                    </div>
+                   <p class="similar-card-icon-skills">Java | Spring framework | sql | React| Hibernate| Javascript | PHP</p>
+
+
+                </div>
+                
+               
+               
+                <div class="btn btn-primary similar d-flex gap-2 justify-content-center align-items-center ">
+                    <p class="mt-3">Similar applicants</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                   </div>
+
+            </div>
+
+
             
         </div>
+
+        
+    </div>
+    <div class="footer d-flex justify-content-between align-items-center ">
+        <p>( 1/10 )</p>
+        <div class="d-flex gap-3">
+            <button class="btn btn-outline-danger">Note intersted</button>
+            <button class="btn btn-outline-info">Shortlist</button>
+            <div id="next-step-container">
+                <button class="btn btn-primary dropdown-toggle" id="next-step">Next steps</button> 
+
+            </div>
+        </div>
+
     </div>
 
     <script src="./index.js"></script>

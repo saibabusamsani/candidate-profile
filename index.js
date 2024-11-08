@@ -27,12 +27,7 @@ const ref=parent.children[1];
 parent.insertBefore(iconsList, ref);
 
 
-const left=document.getElementById("left");
-const profile=document.getElementById("profile");
-const remove=document.getElementById("remove");
-remove.addEventListener("click",()=>{
-    left.removeChild(profile)
-})
+
 
 
 

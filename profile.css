@@ -101,6 +101,7 @@
 
     font-size: 12.5px;
 }
+
 .skill-title{
     font-size: 13px;
     font-size: bold;
@@ -115,5 +116,15 @@
     border-radius: 5px;
 }
 .cv{
+    font-size: 12px;
+}
+
+.similar-card-icon{
+    font-size: 13px;
+}
+.similar-card-icon p{
+    font-size: 11px;
+}
+.similar-card-icon-skills{
     font-size: 12px;
 }
