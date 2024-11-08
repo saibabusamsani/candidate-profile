@@ -5,7 +5,7 @@ const iconClasses=[{icon:"fas fa-shopping-bag",info:"1 yrs 0 m"},{icon:"fa-solid
 for(let i=0;i<3;i++)
 {
     const item=document.createElement("div");
-    item.classList.add("d-flex","gap-2","icon-item");
+    item.classList.add("d-flex","icon-item");
     
     const icon=document.createElement("i");
     icon.classList.add("mt-1")
@@ -25,4 +25,14 @@ const parent=document.getElementById("content");
 const ref=parent.children[1];
 
 parent.insertBefore(iconsList, ref);
+
+
+const left=document.getElementById("left");
+const profile=document.getElementById("profile");
+const remove=document.getElementById("remove");
+remove.addEventListener("click",()=>{
+    left.removeChild(profile)
+})
+
+
 

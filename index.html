@@ -6,6 +6,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">  
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="profile.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +24,7 @@
     </div>
 
     <div class="d-flex">
-        <div class="left p-4 gap-3 d-flex flex-column">
+        <div class="left p-4 gap-3 d-flex flex-column" id="left">
             <h3>Applications for Digital Marketing internship</h3>
 
             <!--  card -->
@@ -86,6 +87,110 @@
                 </div>
 
               </div>
+
+              <!-- Full detailes -->
+
+              <div class="person-info">
+                <div class="profile-top d-flex gap-5">
+                    <button onclick="showCV(1)">Profile detail</button>
+                    <button onclick="showCV(2)">Attached CV</button>
+                </div>
+
+                <div class="profile-container" id="profile-container">
+
+                    <div class="profile" id="profile">
+                       
+                        <p class="candidate-title">
+                            Iam B.tech It Software Developer in WordPress,PHP,MySQL,BuddyBoss And Html with 5.6 years experience.And i will join witin in 15 days.
+                        </p>
+                        <div class="work">
+                            <b>Work summary</b>
+                            <p>Iam looking for job change .Iam a software developer. I have 6 years experience in Wordpress,PHP and Mysql.I will join immedailtely within 15 days</p>
+                        </div>
+                        <div class="skills gap-3 d-flex flex-column">
+                            <b>key skills</b>
+                            <div id="skill-container" class="d-flex gap-4"></div>
+
+                        </div>
+                        <div class="project">
+                            <div class="ti">
+                                <p>Industry</p>
+                                <p>Department</p>
+                                <p>Role</p>
+                            </div>
+                            <div class="info">
+                                <p>It servies and consulting</p>
+                                <p>Engineering-software & QA</p>
+                                <p>Backend Developer</p>
+                            </div>
+                        </div>
+                        <div class="education">
+                            <b>Education</b>
+                            <div >
+                                <i class="fa-solid fa-graduation-cap school"></i>
+                                <div class="flex-column d-flex">
+                                    <b >Btech/B.E., Information Techonlogy,2012</b>
+                                    <p>Andhra University (ANU)</p>
+                                </div>
+            
+                            </div>
+                        </div>
+                        <div class="languages">
+                            <b>Langages known</b>
+                            <p class="p">English - proficient(Read, Write, Speak )</p>
+                            <p>Telugu - Expert(Read, Write, Speak )</p>
+                        </div>
+                        <div class="personal">
+                    
+                                <b>Personal Detailes</b>
+            
+                            <div >
+                            <div class="div">
+                                <p class="p">Date of birth</p>
+                               <p>8 Jul 1989</p>
+                            </div>
+                            <div class="div">
+                                <p class="p">Gender</p>
+                               <p>Male</p>
+                            </div>
+                            <div class="div">
+                                <p class="p">Marital status</p>
+                               <p>Single/unmarried</p>
+                            </div>
+                            <div class="div">
+                                <p class="p">Physicaly challenged</p>
+                               <p>No</p>
+                            </div>
+            
+                            </div>
+                          
+                           
+            
+                        </div>
+                        <div class="contact">
+                                <b>Contact detailes</b>
+                                <p>1-64a, Pallpu street, Guddigudem, 534316</p>
+                        </div>
+            
+                    </div>
+
+                    <div class="d-flex justify-content-between p-3 " style="display: none;" id="cv" >
+                        <div>
+                            <b>Attached CV</b>
+                            <p class="cv">Last updated on 20 Nov,23</p>
+                        </div>
+                        <i class="fa-regular fa-circle-down fs-3 text-black-50"></i>
+
+                    </div>
+
+                </div>
+
+              </div>
+              <!-- profile -->
+
+              
+
+
         </div>
 
         
@@ -97,6 +202,8 @@
     </div>
 
     <script src="./index.js"></script>
+    <script src="./profile.js"></script>
+
     
 </body>
 </html>

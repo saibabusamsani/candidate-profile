@@ -1,0 +1,119 @@
+.profile{
+    height: auto;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+
+}
+.candidate-title{
+    width: 80%;
+    height: 70px;
+    background-color: rgb(237, 246, 254);
+    padding: 20px;
+    font-size: 13px;
+    letter-spacing: .4px;
+    font-family: "Inter";
+    border-left: 4px solid rgb(0, 132, 255);
+    border-radius: 5px;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 13.5px;
+   
+}
+.work p{
+    font-size: 13px;
+    
+}
+.project{
+    display: flex;
+    column-gap: 50px;
+    font-family: "Inter";
+    letter-spacing: .4px;
+    font-family: "Inter";
+    font-size: 13.5px;
+}
+.ti p{
+    font-weight: 600;
+    font-family: "inter";
+    color: rgb(73, 71, 71);
+
+}
+.info p{
+    font-size: 13px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 14px;
+}
+
+.education div{
+    display: flex;
+    column-gap: 10px;
+    font-size: 13px;
+}
+.school{
+    font-size: 25px;
+    height: 30px;
+    padding: 2px;
+    background-color: rgb(208, 191, 191);
+
+}
+.languages{
+        display: flex;
+        flex-direction: column;
+        /* line-height: 3px; */
+        font-size: 13px;
+        font-family: "Inter";
+        /* column-gap: 3px; */
+}
+.languages .p{
+    margin-top: 10px
+}
+.languages b{
+    font-size: 14px;
+}
+
+.personal div{
+    display: flex;
+    column-gap: 60px;
+    font-size: 12.5px;
+    line-height: 5px;
+    margin-top: 10px;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+}
+ .p{
+    font-weight: 600;
+    color: gray;
+}
+.contact p{
+
+    font-size: 12.5px;
+}
+.skill-title{
+    font-size: 13px;
+    font-size: bold;
+}
+.skill{
+    border: none;
+    background-color: rgb(238, 230, 230);
+  padding: 4PX;
+    font-size: 11.5px;
+    letter-spacing: .4px;
+    font-family: "Inter";
+    border-radius: 5px;
+}
+.cv{
+    font-size: 12px;
+}
